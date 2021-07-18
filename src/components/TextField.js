@@ -16,7 +16,7 @@ export default function TextFields({ label, type }) {
 
   return (
     <div className="textfield-wrapper">
-      <TextField id="firstName" label={label} type={type} variant="outlined" />
+      <TextField id={label} label={label} type={type} variant="outlined" />
     </div>
   );
 }
